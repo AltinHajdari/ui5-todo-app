@@ -1,0 +1,34 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <title>ToDo App - Mock Server</title>
+
+        <script
+            id="sap-ui-bootstrap"
+            src="../resources/sap-ui-core.js"
+            data-sap-ui-theme="sap_horizon"
+            data-sap-ui-resourceroots='{
+            "frontend": "../"
+    }'
+            data-sap-ui-oninit="module:sap/ui/core/ComponentSupport"
+            data-sap-ui-async="true"
+            data-sap-ui-compatVersion="edge"
+        ></script>
+
+        <script>
+            sap.ui.getCore().attachInit(function () {
+                sap.ui.require(['frontend/test/initMockServer']);
+            });
+        </script>
+    </head>
+
+    <body class="sapUiBody sapUiSizeCompact">
+        <div
+            data-sap-ui-component
+            data-name="frontend"
+            data-id="container"
+            data-settings='{"id":"frontend"}'
+        ></div>
+    </body>
+</html>

@@ -24,6 +24,8 @@
     "scripts": {
         "start": "fiori run --open \"test/flp.html#app-preview\"",
         "start-local": "fiori run --config ./ui5-local.yaml --open \"test/flp.html#app-preview\"",
+        "start-mock": "fiori run --open \"test/mockServer.html\"",
+        "start-local-mock": "fiori run --config ./ui5-local.yaml --open \"test/mockServer.html\"",
         "build": "ui5 build --config=ui5.yaml --clean-dest --dest dist",
         "lint": "eslint ./",
         "ts-typecheck": "tsc --noEmit",

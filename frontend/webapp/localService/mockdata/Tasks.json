@@ -1,0 +1,42 @@
+[
+    {
+        "ID": "T001",
+        "Description": "Finish UI5 ToDo app mockserver setup",
+        "DueDate": "/Date(1761955200000)/",
+        "Status": "In Progress",
+        "CreatedAt": "/Date(1760918400000)/",
+        "UpdatedAt": "/Date(1761004800000)/"
+    },
+    {
+        "ID": "T002",
+        "Description": "Add table list + filter by status",
+        "DueDate": "/Date(1762300800000)/",
+        "Status": "New",
+        "CreatedAt": "/Date(1760918400000)/",
+        "UpdatedAt": null
+    },
+    {
+        "ID": "T003",
+        "Description": "Implement create dialog (Description, DueDate, Status)",
+        "DueDate": "/Date(1762560000000)/",
+        "Status": "New",
+        "CreatedAt": "/Date(1760918400000)/",
+        "UpdatedAt": null
+    },
+    {
+        "ID": "T004",
+        "Description": "Mark tasks as Done without deleting",
+        "DueDate": null,
+        "Status": "Done",
+        "CreatedAt": "/Date(1760486400000)/",
+        "UpdatedAt": "/Date(1760832000000)/"
+    },
+    {
+        "ID": "T005",
+        "Description": "Clean up: validations + message toasts",
+        "DueDate": "/Date(1763164800000)/",
+        "Status": "In Progress",
+        "CreatedAt": "/Date(1760918400000)/",
+        "UpdatedAt": null
+    }
+]
